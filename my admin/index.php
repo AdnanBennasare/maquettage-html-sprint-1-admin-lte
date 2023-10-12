@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prime review</title>
+  <title>gestion compétences</title>
   <link rel="icon" href="Views/assets/vendor/dist/img/OnlyLogo.png" type="image/png">
 
   <!-- Google Font: Source Sans Pro -->
@@ -29,6 +29,8 @@
   <link rel="stylesheet" href="Views/assets/vendor/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="Views/assets/vendor/plugins/summernote/summernote-bs4.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -93,7 +95,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="Views/assets/vendor/dist/img/user.png" class="img-circle elevation-2" alt="User Image">
+          <img src="Views/assets/vendor/dist/img/solicoders.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">solicoders</a>
@@ -121,7 +123,7 @@
               <li class="nav-item">
                 <a href="Views/gestionCompetences/ajouterCompetences.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>ajouter un compétences</p>
+                  <p>ajouter compétence</p>
                 </a>
               </li>
             </ul>
@@ -168,7 +170,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0">Dashboard</h1>
+          <h1 class="m-0">Compétences</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
@@ -187,7 +189,7 @@
     <div class="container-fluid">
       <!-- Small boxes (Stat box) -->
       <div class="card-header">
-        <h3 class="card-title">Compétences management</h3>
+        <h3 class="card-title">management des Compétences</h3>
 
         <div class="card-tools">
           <div class="input-group input-group-sm" style="width: 150px;">
@@ -198,13 +200,13 @@
       <div class="row">
        
      <!-- /.card-header -->
-              <div class="card-body table-responsive p-0">
-                <table class="table table-hover text-nowrap">
+              <div class="card-body  p-0">
+                <table class="table table-hover text-nowrap ">
                   <thead>
                     <tr>
-                      <th>name</th>
+                      <th>reference</th>
                       <th>code</th>
-                      <th>Description</th>
+                      <th>name</th>
                       <th>action</th>
 
                     </tr>
@@ -215,8 +217,8 @@
                       <td>Maquette</td>
                       <td>Maquetter une application mobile</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -224,8 +226,8 @@
                       <td>Base Données</td>
                       <td>Manipuler une base de données - perfectionnement</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i> </a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -234,8 +236,8 @@
                     
                       <td>Développer la partie back-end d'une application web ou web mobile - perfectionnement</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -244,8 +246,8 @@
                     
                       <td>Collaborer à la gestion d’un projet informatique et à l’organisation de<br>l’environnement de développement - perfectionnement</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -254,8 +256,8 @@
                     
                       <td>Développer une application mobile native, avec Android et React Native</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -264,8 +266,8 @@
                     
                       <td>Préparer et exécuter les plans de tests d’une application</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                     <tr>
@@ -274,8 +276,8 @@
                     
                       <td>Préparer et exécuter le déploiement d’une application web et mobile - perfectionnement</td>
                       <td>
-                        <a class="btn btn-danger">suprimer</a>
-                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer</a>                 
+                        <a class="btn btn-danger">suprimer <i class="bi bi-trash"></i></a>
+                        <a class="btn btn-warning"href="Views/gestionCompetences/editerCompetences.php">editer <i class="bi bi-pencil-square"></i></a>                 
                     </td>
                     </tr>
                   </tbody>
